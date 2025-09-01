@@ -8,11 +8,11 @@ export default function FAQ() {
   const faqs = [
     {
       pergunta: "Como os agentes de IA conseguem vender melhor que humanos?",
-      resposta: "Os agentes são treinados especificamente com os produtos Red Fox, nunca se cansam, nunca esquecem informações, seguem sempre o script perfeito de vendas e estão disponíveis 24/7. Eles também analisam o perfil do cliente em tempo real para oferecer a proposta mais adequada."
+      resposta: "Os agentes são treinados especificamente com os produtos RedFox, nunca se cansam, nunca esquecem informações, seguem sempre o script perfeito de vendas e estão disponíveis 24/7. Eles também analisam o perfil do cliente em tempo real para oferecer a proposta mais adequada."
     },
     {
       pergunta: "Quanto tempo leva para implementar?",
-      resposta: "A implementação completa leva de 5 a 7 dias úteis. Isso inclui configuração, treinamento dos agentes com dados da Red Fox, integração com sistemas existentes e testes. No 8º dia, seus agentes já estão vendendo."
+      resposta: "A implementação completa leva em torno de três meses. Isso inclui configuração, treinamento dos agentes com dados da RedFox, integração com sistemas existentes e testes."
     },
     {
       pergunta: "Os agentes substituem completamente minha equipe humana?",
@@ -27,12 +27,8 @@ export default function FAQ() {
       resposta: "Os agentes são programados para identificar quando um caso precisa de intervenção humana e fazem a transferência automaticamente. Eles também preparam um resumo completo da conversa para que o atendente humano tenha todo o contexto."
     },
     {
-      pergunta: "Qual é a taxa de conversão real dos agentes?",
-      resposta: "Em média, nossos clientes veem taxas de conversão entre 75-85%, comparado com 10-20% de equipes humanas tradicionais. Isso acontece porque os agentes fazem follow-up perfeito, nunca perdem leads e sempre oferecem a proposta ideal."
-    },
-    {
-      pergunta: "Como vocês garantem que os agentes conhecem os produtos Red Fox?",
-      resposta: "Fazemos um treinamento intensivo com toda a base de conhecimento da Red Fox: planos, preços, cobertura, políticas, scripts de vendas e objeções comuns. Os agentes são atualizados automaticamente sempre que há mudanças nos produtos."
+      pergunta: "Como vocês garantem que os agentes conhecem os produtos RedFox?",
+      resposta: "Fazemos um treinamento intensivo com toda a base de conhecimento da RedFox: planos, preços, cobertura, políticas, scripts de vendas e objeções comuns. Os agentes são atualizados automaticamente sempre que há mudanças nos produtos."
     },
     {
       pergunta: "Posso cancelar a qualquer momento?",

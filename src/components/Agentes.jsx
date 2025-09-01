@@ -11,7 +11,7 @@ export default function Agentes() {
       icon: UserCheck,
       cor: "bg-blue-600/10 border-blue-600/20 text-blue-400",
       funcoes: [
-        "Recebe todos os contatos 24/7 com tom Red Fox",
+        "Recebe todos os contatos 24/7 com tom RedFox",
         "Qualifica leads automaticamente por perfil",
         "Direciona para o agente comercial certo",
         "Registra histórico completo do cliente"
@@ -34,17 +34,16 @@ export default function Agentes() {
     },
     {
       nome: "GABRIEL",
-      cargo: "Especialista em Retenção",
-      especialidade: "Pós-venda & Upsell",
+      cargo: "Especialista em Suporte",
+      especialidade: "Suporte Técnico",
       icon: Target,
       cor: "bg-purple-600/10 border-purple-600/20 text-purple-400",
       funcoes: [
         "Monitora satisfação dos clientes",
-        "Identifica oportunidades de upsell",
-        "Previne cancelamentos proativamente",
-        "Oferece soluções personalizadas"
+        "Identifica oportunidades de suporte preventivo",
+        "Atua com manutenções corretivas de N1",
       ],
-      resultados: "40% de aumento em upsell"
+      resultados: "Maior dinâmica de atendimento ao cliente"
     },
     {
       nome: "LIA",
@@ -87,7 +86,7 @@ export default function Agentes() {
             className="text-3xl md:text-5xl font-bold mb-6"
           >
             Conheça seus novos{' '}
-            <span className="redfox-text-gradient">vendedores estrela</span>
+            <span className="redfox-text-gradient">especialistas</span>
           </motion.h2>
 
           <motion.p
@@ -97,7 +96,7 @@ export default function Agentes() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground max-w-3xl mx-auto"
           >
-            Cada agente é especializado em uma etapa do funil comercial, trabalhando em perfeita sintonia 
+            Cada agente é especializado em uma etapa do funil de atendimento, trabalhando em perfeita sintonia 
             para maximizar suas vendas e satisfação dos clientes.
           </motion.p>
         </div>
@@ -137,7 +136,7 @@ export default function Agentes() {
                 </div>
 
                 <div className="bg-green-600/5 border border-green-600/10 rounded-lg p-4">
-                  <h5 className="font-semibold text-green-400 mb-2">Resultado Comprovado:</h5>
+                  <h5 className="font-semibold text-green-400 mb-2">Resultado:</h5>
                   <p className="text-sm text-green-300">{agente.resultados}</p>
                 </div>
               </div>
@@ -154,11 +153,11 @@ export default function Agentes() {
         >
           <div className="bg-gradient-to-r from-red-600/10 to-green-600/10 border border-red-600/20 rounded-xl p-8 max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">
-              <span className="redfox-text-gradient">Resultado:</span> Uma máquina de vendas 24/7
+              <span className="redfox-text-gradient">Resultado:</span> Uma máquina de atendimento 24/7
             </h3>
             <p className="text-lg text-muted-foreground mb-6">
               Enquanto sua concorrência dorme, seus agentes estão trabalhando. 
-              <strong className="text-foreground"> Vendendo, qualificando e fidelizando clientes.</strong>
+              <strong className="text-foreground"> Vendendo, qualificando, prestando suporte e fidelizando clientes.</strong>
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
               <div>

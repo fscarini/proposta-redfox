@@ -25,9 +25,6 @@ function App() {
         <Beneficios />
         <Implementacao />
         <Resultados />
-        <Precificacao />
-        <FAQ />
-        <CTA />
       </main>
       <Footer />
     </div>

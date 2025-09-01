@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 
 export default function Hero() {
   const stats = [
-    { icon: TrendingUp, label: 'Aumento em Vendas', value: '+300%' },
+    { icon: TrendingUp, label: 'Aumento em Performance', value: '+300%' },
     { icon: Phone, label: 'Ligações/dia', value: '500+' },
     { icon: Users, label: 'Leads Qualificados', value: '1000+' },
     { icon: Target, label: 'Taxa de Conversão', value: '85%' }
@@ -42,7 +42,7 @@ export default function Hero() {
           >
             Vendedores, atendentes e suporte de IA que{' '}
             <span className="redfox-text-gradient">multiplicam</span>{' '}
-            suas vendas
+            sua performance
           </motion.h1>
 
           <motion.p
@@ -51,8 +51,8 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8"
           >
-            Equipe completa de agentes comerciais especializados em <strong>prospecção ativa</strong>, <strong>qualificação de leads</strong>, 
-            <strong>vendas consultivas</strong> e <strong>follow-up inteligente</strong>. Trabalham 24/7 para maximizar suas conversões.
+            Equipe completa de agentes comerciais especializados em <strong>prospecção ativa</strong>, <strong> qualificação de leads</strong>, 
+            <strong>vendas consultivas</strong> e <strong>follow-up inteligente</strong>. Trabalham 24/7 para maximizar suas conversões e resultados.
           </motion.p>
 
           <motion.div

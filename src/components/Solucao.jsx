@@ -6,14 +6,14 @@ export default function Solucao() {
   const beneficios = [
     {
       icon: Clock,
-      titulo: "Vendas 24/7",
+      titulo: "Vendas e Suporte 24/7",
       descricao: "Seus agentes nunca dormem, nunca tiram folga e estão sempre prontos para vender",
-      destaque: "16 horas extras de vendas por dia"
+      destaque: "10 horas extras de vendas por dia"
     },
     {
       icon: TrendingUp,
       titulo: "Conversão Inteligente",
-      descricao: "IA treinada especificamente nos produtos Red Fox para maximizar cada oportunidade",
+      descricao: "IA treinada especificamente nos produtos RedFox para maximizar cada oportunidade",
       destaque: "85% de taxa de conversão"
     },
     {
@@ -30,7 +30,7 @@ export default function Solucao() {
     },
     {
       icon: DollarSign,
-      titulo: "ROI Comprovado",
+      titulo: "ROI Estimado",
       descricao: "Investimento que se paga em menos de 30 dias com o aumento das vendas",
       destaque: "300% de retorno em 90 dias"
     }
@@ -61,7 +61,8 @@ export default function Solucao() {
             className="text-3xl md:text-5xl font-bold mb-6"
           >
             Agentes de IA que{' '}
-            <span className="text-green-400">vendem enquanto você dorme</span>
+            <span className="text-green-400">vendem, atendem e dão suporte </span>
+            enquanto você dorme
           </motion.h2>
 
           <motion.p
@@ -71,7 +72,7 @@ export default function Solucao() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground max-w-3xl mx-auto"
           >
-            Imagine ter uma equipe comercial que nunca se cansa, nunca erra o script de vendas 
+            Imagine ter uma equipe de atendimento que nunca se cansa, nunca erra o script de atendimento 
             e está sempre motivada para bater metas. Agora pare de imaginar.
           </motion.p>
         </div>
@@ -108,7 +109,7 @@ export default function Solucao() {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="bg-gradient-to-r from-red-600/5 to-green-600/5 border border-green-600/20 rounded-xl p-8"
         >
-          <h3 className="text-2xl font-bold text-center mb-8">Transformação Comprovada</h3>
+          <h3 className="text-2xl font-bold text-center mb-8">Transformação Esperada</h3>
           
           <div className="grid md:grid-cols-2 gap-8">
             {/* Antes */}
@@ -118,8 +119,8 @@ export default function Solucao() {
               </div>
               <h4 className="text-xl font-semibold mb-4 text-red-400">ANTES</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>• Vendas apenas 8h/dia</li>
-                <li>• 15% de conversão</li>
+                <li>• Vendas limitadas ao horário comercial</li>
+                <li>• Baixa taxa de conversão</li>
                 <li>• Leads perdidos</li>
                 <li>• Follow-up inconsistente</li>
                 <li>• Alto custo por venda</li>
@@ -134,10 +135,10 @@ export default function Solucao() {
               <h4 className="text-xl font-semibold mb-4 text-green-400">DEPOIS</h4>
               <ul className="space-y-2 text-sm text-foreground">
                 <li>• <strong>Vendas 24/7</strong></li>
-                <li>• <strong>85% de conversão</strong></li>
+                <li>• <strong>Alta taxa de conversão</strong></li>
                 <li>• <strong>0 leads perdidos</strong></li>
                 <li>• <strong>Follow-up automático</strong></li>
-                <li>• <strong>ROI de 300%</strong></li>
+                <li>• <strong>ROI estimado de 300%</strong></li>
               </ul>
             </div>
           </div>

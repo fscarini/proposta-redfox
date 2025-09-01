@@ -17,24 +17,13 @@ export default function Resultados() {
     },
     {
       empresa: "Bradesco (BIA)",
-      setor: "Banco - Maior banco privado do Brasil",
+      setor: "Banco - Um dos maiores bancos privados do Brasil",
       periodo: "12 meses",
       resultados: [
         { metrica: "Interações", antes: "1B/ano", depois: "2.3B/ano", aumento: "+130%" },
         { metrica: "Resolutividade", antes: "60%", depois: "90%", aumento: "+50%" },
         { metrica: "Disponibilidade", antes: "8h/dia", depois: "24h/dia", aumento: "200%" },
         { metrica: "Custos Op.", antes: "100%", depois: "34%", aumento: "-66%" }
-      ]
-    },
-    {
-      empresa: "Amtrak",
-      setor: "Transporte Ferroviário - EUA",
-      periodo: "12 meses",
-      resultados: [
-        { metrica: "Reservas", antes: "100%", depois: "125%", aumento: "+25%" },
-        { metrica: "Receita/Reserva", antes: "100%", depois: "130%", aumento: "+30%" },
-        { metrica: "ROI", antes: "0%", depois: "800%", aumento: "+800%" },
-        { metrica: "Perguntas/Ano", antes: "2M", depois: "5M", aumento: "+150%" }
       ]
     }
   ]
@@ -227,18 +216,6 @@ export default function Resultados() {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="mt-16 space-y-8"
         >
-          <div className="bg-gradient-to-r from-green-600/10 to-blue-600/10 border border-green-600/20 rounded-xl p-8 text-center">
-            <blockquote className="text-xl md:text-2xl font-medium text-foreground mb-6">
-              "Julie tem sido projetada para funcionar como nosso melhor representante de atendimento ao cliente. 
-              Ela responde 5 milhões de perguntas por ano e gerou um ROI de 800%."
-            </blockquote>
-            <div className="flex items-center justify-center">
-              <div>
-                <div className="font-semibold text-foreground">Amtrak</div>
-                <div className="text-sm text-muted-foreground">Maior empresa ferroviária dos EUA</div>
-              </div>
-            </div>
-          </div>
 
           <div className="bg-gradient-to-r from-red-600/10 to-green-600/10 border border-red-600/20 rounded-xl p-8 text-center">
             <blockquote className="text-xl md:text-2xl font-medium text-foreground mb-6">
@@ -264,7 +241,7 @@ export default function Resultados() {
         >
           <div className="bg-redfox-gradient rounded-xl p-8 max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Red Fox pode ser o próximo case de sucesso brasileiro
+              A RedFox pode ser o próximo case de sucesso brasileiro
             </h3>
             <p className="text-white/90 mb-6">
               Charter Communications (telecom como vocês) teve 300% de ROI em 6 meses. 

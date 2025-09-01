@@ -6,7 +6,7 @@ export default function Beneficios() {
   const metricas = [
     {
       valor: "300%",
-      label: "Aumento em Vendas",
+      label: "Aumento em Performance",
       descricao: "Multiplicação comprovada do faturamento em 90 dias",
       icon: BarChart3,
       cor: "text-green-400"
@@ -41,7 +41,7 @@ export default function Beneficios() {
     },
     {
       valor: "30 dias",
-      label: "ROI Garantido",
+      label: "ROI Estimado",
       descricao: "Investimento se paga em menos de um mês",
       icon: Zap,
       cor: "text-yellow-400"
@@ -114,7 +114,7 @@ export default function Beneficios() {
             className="text-lg text-muted-foreground max-w-3xl mx-auto"
           >
             Resultados reais de empresas que implementaram agentes comerciais de IA. 
-            Sua Red Fox pode ser a próxima success story.
+            A RedFox Telecom pode ser o próximo case de sucesso.
           </motion.p>
         </div>
 

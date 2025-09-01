@@ -25,7 +25,7 @@ export default function Problema() {
     {
       icon: Phone,
       titulo: "Atendimento Inconsistente",
-      descricao: "Qualidade do atendimento varia entre vendedores, afetando a experiência do cliente",
+      descricao: "Qualidade do atendimento varia entre seus atendentes, afetando a experiência do cliente",
       impacto: "Perda de 40% dos prospects"
     },
     {
@@ -60,9 +60,9 @@ export default function Problema() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-3xl md:text-5xl font-bold mb-6"
           >
-            Por que sua equipe comercial{' '}
-            <span className="text-orange-400">não está vendendo</span>{' '}
-            o suficiente?
+            Sua equipe está atendendo todas as demandas de forma{' '}
+            <span className="text-orange-400">eficiente</span>{''}
+            ?
           </motion.h2>
 
           <motion.p
@@ -72,7 +72,7 @@ export default function Problema() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground max-w-3xl mx-auto"
           >
-            A Red Fox Telecom, como muitas empresas de telecomunicações, enfrenta desafios únicos 
+            A RedFox Telecom, como muitas empresas de telecomunicações, enfrenta desafios únicos 
             que limitam o potencial de crescimento e satisfação dos clientes.
           </motion.p>
         </div>
@@ -116,8 +116,8 @@ export default function Problema() {
               <span className="text-red-400">Resultado:</span> Oportunidades perdidas todos os dias
             </h3>
             <p className="text-lg text-muted-foreground">
-              Enquanto seus concorrentes dormem, seus clientes estão procurando soluções. 
-              <strong className="text-foreground"> Você está perdendo vendas 16 horas por dia.</strong>
+              Enquanto dormimos, clientes estão procurando soluções. 
+              <strong className="text-foreground"> Nós estamos perdendo vendas 10 horas por dia.</strong>
             </p>
           </div>
         </motion.div>

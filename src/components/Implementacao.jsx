@@ -20,9 +20,9 @@ export default function Implementacao() {
       numero: "02",
       titulo: "Configuração & Treinamento",
       duracao: "2 mês",
-      descricao: "Configuramos os agentes com o DNA da Red Fox e treinamos com dados reais",
+      descricao: "Configuramos os agentes com o DNA da RedFox e treinamos com dados reais",
       atividades: [
-        "Treinamento com base de conhecimento Red Fox",
+        "Treinamento com base de conhecimento RedFox",
         "Configuração de integrações (CRM, WhatsApp, etc)",
         "Testes de qualidade e ajustes finos",
         "Treinamento da equipe interna"
@@ -79,7 +79,7 @@ export default function Implementacao() {
             className="text-3xl md:text-5xl font-bold mb-6"
           >
             Do zero ao{' '}
-            <span className="text-blue-400">faturamento em até 3 mêses</span>
+            <span className="text-blue-400">faturamento em até 6 mêses</span>
           </motion.h2>
 
           <motion.p
@@ -148,7 +148,7 @@ export default function Implementacao() {
               <span className="text-blue-400">Garantia de Sucesso:</span> Resultados em 30 dias
             </h3>
             <p className="text-lg text-muted-foreground mb-6">
-              aumento significativo nas vendas em 30 dias, 
+              aumento significativo na performance e nas vendas em 30 dias, 
               <strong className="text-foreground"> após implementação</strong>
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
